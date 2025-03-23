@@ -33,7 +33,7 @@ class _DownloadPageState extends State<DownloadPage> with SingleTickerProviderSt
   final String comicConverterFolder = "C:\\Users\\W11\\Desktop\\ComicConverter";
   
   // API related variables
-  String _serverUrl = 'http://10.91.21.25:5000';
+  String _serverUrl = 'https://reader-comic-app.onrender.com';
   late ComicApiService apiService;
   TextEditingController _serverUrlController = TextEditingController();
   String? _errorMessage;
@@ -747,7 +747,7 @@ class _DownloadPageState extends State<DownloadPage> with SingleTickerProviderSt
                   controller: _serverUrlController,
                   decoration: InputDecoration(
                     labelText: 'Server URL',
-                    hintText: 'http://10.90.204.23:5000',
+                    hintText: 'https://reader-comic-app.onrender.com',
                     border: OutlineInputBorder(),
                     isDense: true,
                     contentPadding: EdgeInsets.symmetric(horizontal: 8, vertical: 8),

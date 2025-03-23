@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
 import 'package:path/path.dart' as path;
 
-const String API_BASE_URL = 'http://10.91.21.25:5000';
+const String API_BASE_URL = 'https://reader-comic-app.onrender.com';
 
 class ComicApiService {
   final String baseUrl;
